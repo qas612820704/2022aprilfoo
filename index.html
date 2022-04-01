@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="讓貓咪變聰明的 10 種方法 | 貓貓娛樂" />
+    <meta property="og:image" content="./og.png" />
+    <meta property="og:description" content="怎麼可以不分享呢！馬來西亞網友養了一隻虎斑貓，這天他興高采烈地準備享用餐點，沒想到貓貓因此不爽，認為他沒有把好東西分享給自己，於是默默坐到餐桌前，用一個簡單的動作偷偷教訓奴才，且全程都沒有看向食物，這高明的招數讓大家忍不住直呼「太聰明！」..." />
+    <link rel="icon" type="image/x-icon" href="./favicon.png">
+    <title>讓貓咪變聰明的 10 種方法 | 貓貓娛樂</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+        }
+        body {
+            position: relative;
+            display: flex;
+        }
+        .center {
+            position: absolute;
+            display: flex;
+            width: 100%;
+            height: 100%;
+            margin: auto;
+        }
+        .title {
+            margin: auto;
+            color: red;
+            animation: rotate linear 2s infinite;
+            z-index: 1;
+        }
+        .background {
+            position:absolute;
+            height: 100%;
+            animation: zoom linear 2s infinite;
+        }
+        @keyframes rotate {
+            0% {
+                color: red;
+                transform: rotateZ(0);
+            }
+            25% {
+                color: yellow;
+            }
+            50% {
+                color: green;
+            }
+            75% {
+                color: blue;
+            }
+            100% {
+                color: red;
+                transform: rotateZ(360deg);
+            }
+        }
+        @keyframes zoom {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.5);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="center">
+        <h1 class="title">愚人節快樂</h1>
+    </div>
+    <img src="./april.jpg" class="background">
+</body>
+</html>
